@@ -32,7 +32,8 @@ Cambiando *cognits* por tu usuario.
 
 Una imagen o Photoshop de un diseñador va a ser tu única guía cuando te
 encuentres en un equipo de desarrollo. Esa imagen te dará las guías sobre las cuales
-esperan el software. Eso buscamos hacer aquí!
+esperan el software. Eso buscamos hacer aquí! Abre la imagen [portfolio-sketch](portfolio-sketch.png)
+para ver cómo te debe quedar tu página.
 
 
 ## 4. Escribir código
