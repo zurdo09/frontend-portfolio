@@ -15,9 +15,36 @@ instrucciones pues el HTML y CSS serán calificados automáticamente.
 
 ## 1. Pre-requisitos
 
-Para completar este proyecto, debes asegurar tener instalado [Git](http://www.git-scm.com)
-en tu computadora.
+Para completar este proyecto, debes asegurar tener instalado [Git](http://www.git-scm.com),
+[Node.JS](http://www.nodejs.org) y [Gulp](http://www.gulpjs.com).
 
+Para Linux, lo mejor para hacer es instalar `git` y `node` usando `apt-get`. Esto sería
+algo cómo:
+```
+sudo apt-get install git
+sudo apt-get install node
+```
+
+Debemos asegurar que se hayan instalado correctamente, corre los siguientes comandos:
+```
+git --version
+node --version
+```
+Tambien debemos ver si el manejador de paquetes de `node` se instaló:
+```
+npm --version
+```
+Si existe un error, debes correr:
+```
+sudo apt-get install npm
+```
+
+Por último, con `npm` instalado, debemos instalar Gulp corriendo:
+```
+npm install -g gulp
+```
+
+Si tienes problemas, consulta con tu **coach**.
 
 ## 2. Fork y clonar repositorio
 
@@ -38,7 +65,23 @@ para ver cómo te debe quedar tu página.
 
 ## 4. Escribir código
 
-Asegura escribir todo tu código de HTML en [index.html](index.html) y todo tu CSS en [styles.css](css/styles.css).
+Asegura escribir todo tu código de HTML en [index.html](index.html) y todo tu CSS en [styles.css](css/styles.css). Lo que buscas es reproducir en código la imagen [portfolio-sketch](portfolio-sketch.png) lo más similar posible.
+
+### Corriendo los tests localmente
+
+Para asegurar que tu código pase, debes correr los tests en tu computadora. Para eso,
+vamos a usar la herramienta llamada [Gulp](http://www.gulpjs.com) que corre en [Node.JS](http://www.nodejs.org).
+
+Si seguiste todos los pasos detallados en [Pre-requisitos](1. Pre-requisitos), usando
+terminal, entra al folder del proyecto. Allí escribe los siguientes comandos:
+
+```
+npm -d install
+```
+Luego que se instalan los módulos, corre:
+```
+gulp
+```
 
 ## 5. Entrega
 
