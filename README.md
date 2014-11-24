@@ -41,7 +41,7 @@ sudo apt-get install npm
 
 Por último, con `npm` instalado, debemos instalar Gulp corriendo:
 ```
-npm install -g gulp
+sudo npm install -g gulp
 ```
 
 Si tienes problemas, consulta con tu **coach**.
@@ -76,7 +76,7 @@ Si seguiste todos los pasos detallados en [Pre-requisitos](1. Pre-requisitos), u
 terminal, entra al folder del proyecto. Allí escribe los siguientes comandos:
 
 ```
-npm -d install
+sudo npm -d install
 ```
 Luego que se instalan los módulos, corre:
 ```
