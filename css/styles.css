@@ -1,3 +1,103 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+
+h1 {
+	font-family: arial;
+	float: right;
+	margin-bottom: -20px;
+}
+h5 {
+	font-family: arial;
+	float: right;
+	clear: right;
+	font-color: red;
+}
+body {
+	color: #444242;
+	font-family: arial;
+	margin-left: 60px;
+	margin-right: 60px;
+
+}
+
+body h2 {
+	color: #777777;
+	font-family: arial;
+
+}
+
+#imag {
+	float: left;
+	left: 50%;
+}
+
+#image {
+	float: right;
+	right: 50%;
+}
+
+#imaga {
+	float: left;
+	left: 50%;
+}
+
+#imagi {
+	float: right;
+	right: 50%;
+}
+
+#imagen {
+	float: left;
+	left: 50%;
+}
+
+#sexta {
+	float:right;
+	right: 50%;
+	margin-right: -48%;
+}
+
+#septima {
+	float: left;
+	left: 50%;
+	margin-left: -56%;
+}
+
+#cognits {
+	float: left;
+	margin-left: -0.5%;
+}
+
+#Inventory {
+	text-align: center;
+}
+
+#search {
+	text-align: center;
+}
+
+#portafolio {
+	text-align: center;
+}
+
+#batt {
+	text-align: center;
+}
+
+#capitales {
+	text-align: center;
+}
+
+#factorial {
+	text-align: center;
+	margin-right: 50%;
+}
+
+#generador {
+	text-align: center;
+}
+
+#cog {
+	text-align: center;
+}
